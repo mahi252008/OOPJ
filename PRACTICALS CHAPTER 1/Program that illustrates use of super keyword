@@ -1,0 +1,29 @@
+public class Main{
+    public static void main(String args[]){
+        A a= new A();
+        System.out.println(a.name);
+        B b= new B();
+        System.out.println(b.name);
+        System.out.println(b.dept);
+        a.name="Mahii Patel";
+        b.showAName();
+    }
+}
+class A {
+    String name;
+    A() {
+        name = "unknown";
+    }
+}
+class B extends A {
+    String dept;
+    B(){
+        super();
+        dept="DIPLOMA";
+    }
+    void showAName(){
+        System.out.println(super.name);
+    }
+}
+
+
