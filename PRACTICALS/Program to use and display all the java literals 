@@ -1,0 +1,38 @@
+ Write a Java program to use and display all the java literals.       
+
+
+
+    public class LiteralsExample {
+    public static void main(String[] args) {
+        int decimal = 25;       
+        int octal = 013;        
+        int hex = 0xB;          
+        int binary = 10;    
+        float floatLiteral = 25.08f;      
+        double doubleLiteral = 10.5;
+        char charLiteral = 'A';          
+        char unicodeLiteral = '\u0041'; 
+        String stringLiteral = "MAHI PATEL"; 
+        boolean trueLiteral = true;      
+        boolean falseLiteral = false;   
+        String nullLiteral = null; 
+        System.out.println("Integer Literals:");
+        System.out.println("Decimal: " + decimal);
+        System.out.println("Octal: " + octal);
+        System.out.println("Hexadecimal: " + hex);
+        System.out.println("Binary: " + binary);
+        System.out.println("\nFloating-point Literals:");
+        System.out.println("Float: " + floatLiteral);
+        System.out.println("Double: " + doubleLiteral);
+        System.out.println("\nCharacter Literals:");
+        System.out.println("Character: " + charLiteral);
+        System.out.println("Unicode: " + unicodeLiteral);
+        System.out.println("\nString Literal:");
+        System.out.println("String: " + stringLiteral);
+        System.out.println("\nBoolean Literals:");
+        System.out.println("True: " + trueLiteral);
+        System.out.println("False: " + falseLiteral);
+        System.out.println("\nNull Literal:");
+        System.out.println("Null: " + nullLiteral);
+    }
+}
